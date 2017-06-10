@@ -1,4 +1,4 @@
-#makeCacheMatix function creates a matrix object that can cache its inverse.
+# makeCacheMatix function creates a matrix object that can cache its inverse.
 makeCacheMatrix <- function(x = matrix()) {
       inv <- NULL
       set <- function(y) {
